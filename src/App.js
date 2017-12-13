@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import GrommetApp from 'grommet/components/App';
-import Anchor from 'grommet/components/Anchor';
 import Header from 'grommet/components/Header';
 import Heading from 'grommet/components/Heading';
 import Box from 'grommet/components/Box';
@@ -12,7 +11,6 @@ class App extends Component {
   render() {
     return (
       <GrommetApp centered={false}>
-        <Anchor label='hi' />
         <Header colorIndex="brand">
           <img src={logo} className="App-logo" alt="logo" />
           <Heading tag='h2'>Welcome to React + Grommet</Heading>
